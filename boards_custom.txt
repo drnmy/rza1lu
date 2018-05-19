@@ -44,10 +44,17 @@
 
 
 # Enter you board names here:
-CUSTOM_BOARDS=" "
+CUSTOM_BOARDS="rza1lu "
 
 # Please place your board definitions below here:
 
-
+# rza1lu
+   BRD_DESC_rza1lu="RSK (RZ/A1LU)"
+  BRD_DLRAM_rza1lu=0x08000000
+  BRD_UBOOT_rza1lu=0x18000000
+    BRD_DTB_rza1lu=0x180C0000
+ BRD_KERNEL_rza1lu=0x18200000
+ BRD_ROOTFS_rza1lu=0x18800000
+   BRD_QSPI_rza1lu=DUAL
 
 
